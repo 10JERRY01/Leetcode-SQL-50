@@ -1,4 +1,4 @@
-#This approach uses pandas which is a little faster than the basic approach but consumes memory storage.
+#This approach uses pandas which is a little faster than the basic approach but consumes memory storage as pandas dataframe is created.
 import pandas as pd
 
 def find_products(products: pd.DataFrame) -> pd.DataFrame:
